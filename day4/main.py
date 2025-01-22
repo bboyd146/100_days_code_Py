@@ -32,7 +32,7 @@ scissors = '''
 choices = [rock, paper, scissors]
 
 # Get user choice
-user_choice = int(input("What would you like to choose? Type 0 for Rock, 1 for Paper, 2 for Scissors: "))
+user_choice = int(input("What would you like to choose? Type 0 for Rock, 1 for Paper, 2 for Scissors: \n2"))
 if user_choice < 0 or user_choice > 2:
     print("Invalid choice. You lose!")
 else:
